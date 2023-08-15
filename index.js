@@ -42,6 +42,7 @@ function sendMail(userMail, password, _name, email, subject, message) {
   };
   transporter.sendMail(mailOptions, (err, info) => {
     if (err) console.log(err);
+    else console.log(`Message sent succesfully\n\n{info.response}`);
   });
   return true;
 }
