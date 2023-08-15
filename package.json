@@ -4,7 +4,7 @@
   "description": "",
   "main": "prep.js",
   "scripts": {
-    "start": "nodemon prep.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm i"
   },
